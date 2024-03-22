@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-22T12:40:54 IST" name="Default suite" finished-at="2024-03-22T12:41:11 IST" duration-ms="16579">
+    <groups>
+    </groups>
+    <test started-at="2024-03-22T12:40:54 IST" name="Default test" finished-at="2024-03-22T12:41:11 IST" duration-ms="16579">
+      <class name="testCase.EmiForCar">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.EmiForCar@e077866]" started-at="2024-03-22T12:40:54 IST" name="setup" finished-at="2024-03-22T12:41:03 IST" duration-ms="8633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="operations()[pri:0, instance:testCase.EmiForCar@e077866]" started-at="2024-03-22T12:41:03 IST" name="operations" finished-at="2024-03-22T12:41:11 IST" duration-ms="7868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operations -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.EmiForCar@e077866]" started-at="2024-03-22T12:41:11 IST" name="tearDown" finished-at="2024-03-22T12:41:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCase.EmiForCar -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

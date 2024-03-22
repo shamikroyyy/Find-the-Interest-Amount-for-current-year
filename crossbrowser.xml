@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite"><!--parallel="tests"-->
+<listeners>
+	<listener class-name="utility.ExtentReportManager"/>
+</listeners>
+<parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="chromeTest">
+    <classes>
+      <class name="testCase.LoanCalcpage"/>
+      <class name="testBase.baseClass"/>
+      <class name="testCase.EmiForHomeLoan"/>
+      <class name="testCase.EmiForCar"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <listeners>
+	<listener class-name="utility.ExtentReportManager"/>
+</listeners>
+<parameter name="browser" value="edge"/>
+  <test thread-count="5" name="edgeTest">
+    <classes>
+      <class name="testCase.LoanCalcpage"/>
+      <class name="testBase.baseClass"/>
+      <class name="testCase.EmiForHomeLoan"/>
+      <class name="testCase.EmiForCar"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

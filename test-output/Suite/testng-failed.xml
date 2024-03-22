@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="edge"/>
+  <listeners>
+    <listener class-name="utility.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="chromeTest(failed)">
+    <classes>
+      <class name="testCase.EmiForCar">
+        <methods>
+          <include name="crossBrowser"/>
+          <include name="tearDown"/>
+          <include name="operations"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCase.EmiForCar -->
+      <class name="testCase.EmiForHomeLoan">
+        <methods>
+          <include name="crossBrowser"/>
+          <include name="tearDown"/>
+          <include name="YearOnYearDetailsAndStoreInExcel"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCase.EmiForHomeLoan -->
+      <class name="testCase.LoanCalcpage">
+        <methods>
+          <include name="crossBrowser"/>
+          <include name="tearDown"/>
+          <include name="UICheckForTextbox"/>
+          <include name="setup"/>
+          <include name="checkInScaleForLoanAmountCalculator"/>
+          <include name="UICheckForScales"/>
+          <include name="checkInScaleForEmiCalculator"/>
+        </methods>
+      </class> <!-- testCase.LoanCalcpage -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+  <test thread-count="5" name="edgeTest(failed)">
+    <classes>
+      <class name="testCase.EmiForCar">
+        <methods>
+          <include name="crossBrowser"/>
+          <include name="tearDown"/>
+          <include name="operations"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCase.EmiForCar -->
+      <class name="testCase.EmiForHomeLoan">
+        <methods>
+          <include name="crossBrowser"/>
+          <include name="tearDown"/>
+          <include name="YearOnYearDetailsAndStoreInExcel"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCase.EmiForHomeLoan -->
+      <class name="testCase.LoanCalcpage">
+        <methods>
+          <include name="crossBrowser"/>
+          <include name="tearDown"/>
+          <include name="UICheckForTextbox"/>
+          <include name="setup"/>
+          <include name="checkInScaleForLoanAmountCalculator"/>
+          <include name="UICheckForScales"/>
+          <include name="checkInScaleForEmiCalculator"/>
+        </methods>
+      </class> <!-- testCase.LoanCalcpage -->
+    </classes>
+  </test> <!-- edgeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
